@@ -1,13 +1,11 @@
 {
   "dependencies": {
-    "apis1": {
-      "type": "apis"
-    },
     "secrets1": {
-      "type": "secrets"
+      "type": "secrets.user"
     },
     "sqlite1": {
-      "type": "sqlite",
+      "secretStore": "LocalSecretsFile",
+      "type": "sqlite.local",
       "connectionId": "ConnectionStrings",
       "dynamicId": null
     }
